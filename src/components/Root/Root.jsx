@@ -4,9 +4,9 @@ import Header from "../Header/Header";
 
 const Root = () => {
     return (
-        <div>
+        <div className="max-w-7xl mx-auto min-h-screen">
             <Header></Header>
-            <Outlet></Outlet> 
+            <Outlet></Outlet>
         </div>
     );
 };

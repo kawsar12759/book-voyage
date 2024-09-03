@@ -1,0 +1,146 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "image": "https://i.ibb.co/Vx2Z5Lc/6513040-MAIN-ezgif-com-webp-to-jpg-converter-1.jpg",
+        "review": "The Silent Patient is a masterful psychological thriller that keeps readers on the edge of their seats from beginning to end. The story revolves around Alicia Berenson, a famous painter who shoots her husband and then falls silent, refusing to utter a single word. The narrative is meticulously crafted, intertwining the perspectives of Alicia and Theo Faber, a forensic psychologist determined to unravel the mystery behind her silence. Michaelides weaves a tale of obsession, betrayal, and trauma, leading to an unexpected twist that is both shocking and thought-provoking. The exploration of the human psyche is profound, and the writing is crisp and engaging. This book is not just a thriller but also a deep dive into the complexities of the mind, making it a compelling read for anyone who enjoys a well-plotted, psychological narrative.",
+        "totalPages": 336,
+        "rating": 4.6,
+        "category": "Thriller",
+        "tags": [
+            "Psychological",
+            "Mystery"
+        ],
+        "publisher": "Celadon Books",
+        "yearOfPublishing": 2019
+    },
+    {
+        "bookId": 2,
+        "bookName": "Becoming",
+        "author": "Michelle Obama",
+        "image": "https://i.ibb.co/wJDgm0p/6618075-MAIN-ezgif-com-webp-to-jpg-converter-1.jpg",
+        "review": "Becoming is an intimate and inspiring memoir that offers a rare glimpse into the life of Michelle Obama, one of the most iconic and influential women of our time. The book is divided into three parts: 'Becoming Me,' 'Becoming Us,' and 'Becoming More,' each chronicling different stages of her life, from her childhood on the South Side of Chicago to her years as the First Lady of the United States. Michelle Obama writes with grace, honesty, and a deep sense of empathy, sharing her struggles, triumphs, and the lessons she has learned along the way. The memoir is not just a reflection on her personal journey but also a powerful commentary on race, gender, and the importance of education. It is a book that resonates with readers on many levels, offering both inspiration and a call to action.",
+        "totalPages": 448,
+        "rating": 4.8,
+        "category": "Biography",
+        "tags": [
+            "Inspiring",
+            "Political"
+        ],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 3,
+        "bookName": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "image": "https://i.ibb.co/NSQx5Fv/6513037-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
+        "review": "Where the Crawdads Sing is a mesmerizing blend of mystery, romance, and nature writing. Set in the marshlands of North Carolina, the novel tells the story of Kya Clark, the 'Marsh Girl,' who grows up isolated from society. Delia Owens paints a vivid picture of the natural world, making the marshland almost a character in itself. The narrative alternates between Kya's lonely childhood and the investigation of a murder in the nearby town. As the two timelines converge, the reader is drawn into a tale of survival, loneliness, and the search for belonging. The book is beautifully written, with poetic descriptions and a strong emotional core. The mystery element is compelling, but it is the exploration of Kya's inner world that truly captivates. This is a book that lingers in the mind long after the last page is turned.",
+        "totalPages": 370,
+        "rating": 4.7,
+        "category": "Fiction",
+        "tags": [
+            "Mystery",
+            "Romance"
+        ],
+        "publisher": "G.P. Putnam's Sons",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 4,
+        "bookName": "Educated",
+        "author": "Tara Westover",
+        "image": "https://i.ibb.co/ydMdXfp/6408309-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
+        "review": "Educated is a powerful and moving memoir that chronicles Tara Westover's journey from a survivalist family in rural Idaho to earning a PhD from Cambridge University. Raised by strict and paranoid parents who eschew formal education and modern medicine, Westover's childhood is marked by physical and emotional abuse. Despite these challenges, she teaches herself enough to gain admission to college, where her world expands in ways she never imagined. The book is a testament to the power of education and the resilience of the human spirit. Westover's writing is both raw and eloquent, capturing the complexities of her relationships with her family and her struggle to reconcile her past with her new identity. Educated is not just a story of overcoming adversity but also a profound exploration of the bonds that tie us to our roots, and the difficult choices we must make to forge our own path.",
+        "totalPages": 334,
+        "rating": 4.7,
+        "category": "Memoir",
+        "tags": [
+            "Inspiring",
+            "Memoir"
+        ],
+        "publisher": "Random House",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 5,
+        "bookName": "Atomic Habits",
+        "author": "James Clear",
+        "image": "https://i.ibb.co/GRr7TGZ/6519454-MAIN-ezgif-com-crop.jpg",
+        "review": "Atomic Habits is an insightful and practical guide to habit formation that offers actionable advice for anyone looking to improve their life. James Clear breaks down the science of habits into easy-to-understand concepts and provides strategies for building good habits and breaking bad ones. The book is filled with real-life examples and research-based insights, making it both informative and engaging. Clear's writing is concise and accessible, and his approach is grounded in the idea that small, incremental changes can lead to significant improvements over time. Whether you're looking to improve your health, productivity, or relationships, Atomic Habits provides a roadmap for making lasting changes. The book's emphasis on systems and processes over goals is a refreshing perspective that encourages readers to focus on the journey rather than the destination.",
+        "totalPages": 320,
+        "rating": 4.8,
+        "category": "Self-help",
+        "tags": [
+            "Productivity",
+            "Psychology"
+        ],
+        "publisher": "Avery",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Alchemist",
+        "author": "Paulo Coelho",
+        "image": "https://i.ibb.co/JsMDg0x/5923679-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
+        "review": "The Alchemist is a timeless and inspirational novel that has touched the hearts of millions of readers around the world. Paulo Coelho's tale follows the journey of Santiago, a young shepherd in search of a worldly treasure. Along the way, he encounters various characters, each imparting wisdom that helps him discover the true meaning of his quest. The novel is rich with symbolism and philosophical insights, exploring themes of destiny, dreams, and the interconnectedness of all things. Coelho's writing is simple yet profound, making the book accessible to a wide audience. The Alchemist is more than just a story; it is a spiritual guide that encourages readers to listen to their hearts and follow their dreams. It is a book that resonates on a deeply personal level, offering hope and inspiration to anyone seeking their own path in life.",
+        "totalPages": 208,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Philosophy",
+            "Adventure"
+        ],
+        "publisher": "HarperOne",
+        "yearOfPublishing": 1988
+    },
+    {
+        "bookId": 7,
+        "bookName": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "image": "https://i.ibb.co/J77RGgf/6019391-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
+        "review": "Sapiens: A Brief History of Humankind is a fascinating exploration of the history of our species, Homo sapiens. Yuval Noah Harari takes readers on an epic journey, starting from the emergence of our species in Africa to the present day, and even speculates about the future of humanity. Harari's writing is engaging and thought-provoking, making complex ideas accessible to a wide audience. The book delves into the cognitive revolution, the agricultural revolution, and the unification of humankind, among other significant events in our history. What sets Sapiens apart is its ability to connect historical developments with contemporary issues, providing readers with a deeper understanding of how the past has shaped the present. This is a must-read for anyone interested in history, anthropology, or the human condition.",
+        "totalPages": 498,
+        "rating": 4.7,
+        "category": "Non-fiction",
+        "tags": [
+            "History",
+            "Science"
+        ],
+        "publisher": "Harper",
+        "yearOfPublishing": 2014
+    },
+    {
+        "bookId": 8,
+        "bookName": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "image": "https://i.ibb.co/S0gX4ZS/5745364-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
+        "review": "The Night Circus is a spellbinding fantasy novel that transports readers to a world of magic, mystery, and wonder. The story revolves around a mysterious circus that appears without warning and is only open at night. Within its black-and-white striped tents lies a unique competition between two young illusionists, Celia and Marco, who have been trained since childhood for this challenge. The novel is beautifully written, with lush descriptions that bring the circus to life in vivid detail. Morgenstern's narrative weaves together multiple storylines and characters, creating a rich tapestry of intrigue and romance. The Night Circus is more than just a fantasy novel; it is an immersive experience that captivates the imagination and leaves a lasting impression. It's a book that lingers in your mind long after you've finished reading.",
+        "totalPages": 512,
+        "rating": 4.5,
+        "category": "Fantasy",
+        "tags": [
+            "Magic",
+            "Romance"
+        ],
+        "publisher": "Doubleday",
+        "yearOfPublishing": 2011
+    },
+    {
+        "bookId": 9,
+        "bookName": "The Subtle Art of Not Giving a F*ck",
+        "author": "Mark Manson",
+        "image": "https://i.ibb.co/d4wMCYN/6172965-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
+        "review": "The Subtle Art of Not Giving a F*ck by Mark Manson is a refreshing take on the self-help genre. Instead of focusing on positivity and relentless optimism, Manson argues that life’s struggles and challenges are inevitable, and the key to a good life is not in avoiding these struggles but in carefully choosing which ones are worth our time and energy. His blunt and irreverent style, combined with humor and honesty, makes this book a compelling read. Manson encourages readers to embrace their limitations, accept the reality of their circumstances, and focus on what truly matters. The book is filled with practical advice and philosophical insights, making it both thought-provoking and actionable. It's a no-nonsense guide to living a more meaningful life by learning to care less about the things that don't really matter.",
+        "totalPages": 224,
+        "rating": 4.4,
+        "category": "Self-help",
+        "tags": [
+            "Philosophy",
+            "Psychology"
+        ],
+        "publisher": "HarperOne",
+        "yearOfPublishing": 2016
+    }
+]

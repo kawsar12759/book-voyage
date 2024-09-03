@@ -31,9 +31,12 @@ const ListedBooks = () => {
         }
     }, [])
 
+    const [sortOption, setSortOption] = useState('Sort By');
+
 
     //Filter
-    const handleFilter = filterBy => {
+    const handleFilter = (filterBy, sortValue) => {
+        setSortOption(sortValue);
         if (filterBy === 'rating') {
 
             allBooks.sort((a, b) => b.rating - a.rating);
@@ -72,17 +75,17 @@ const ListedBooks = () => {
             </div>
             <div className="flex justify-center mb-5">
                 <div className="dropdown ">
-                    <div tabIndex={0} role="button" className="btn m-1 w-52 bg-[#23BE0A] border-none text-white">Sort By<FaChevronDown />
+                    <div tabIndex={0} role="button" className="btn m-1 w-52 active:bg-white active:text-[#23BE0A] hover:bg-[#23BE0A] bg-[#23BE0A] border !border-[#23BE0A] text-white">{sortOption}<FaChevronDown />
                     </div>
                     <ul tabIndex={0} className="dropdown-content menu text-custom-black rounded-box z-[1] w-52 p-2 shadow bg-custom-gray">
-                        <li onClick={() => handleFilter('rating')} className=""><a>Rating</a></li>
-                        <li onClick={() => handleFilter('pages')}><a>Number of Pages</a></li>
-                        <li onClick={() => handleFilter('year')}><a>Publisher Year</a></li>
+                        <li onClick={() => handleFilter('rating','Rating')} className="active:!bg-[#23BE0A]"><a>Rating</a></li>
+                        <li onClick={() => handleFilter('pages','Number of Pages')}><a>Number of Pages</a></li>
+                        <li onClick={() => handleFilter('year','Publish Year')}><a>Publisher Year</a></li>
                     </ul>
                 </div>
             </div>
             <div role="tablist" className="tabs tabs-lifted bg-white">
-                <input type="radio" name="my_tabs_2" role="tab" className="tab " aria-label="Read Books" defaultChecked />
+                <input type="radio" name="my_tabs_2" role="tab" className="tab " aria-label="Read" defaultChecked />
                 <div role="tabpanel" className="tab-content bg-white border-hr-color rounded-box p-6">
                     <div>
                         <div className={readBooks.length === 0 ? 'h-56 text-4xl font-semibold text-[#131313] flex items-center justify-center' : 'hidden'}>
@@ -101,7 +104,7 @@ const ListedBooks = () => {
                     name="my_tabs_2"
                     role="tab"
                     className="tab"
-                    aria-label="Wishlist Book"
+                    aria-label="Wishlist"
                 />
                 <div role="tabpanel" className="tab-content bg-white border-hr-color rounded-box p-6">
                     <div>

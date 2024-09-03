@@ -57,7 +57,7 @@ const BookDetails = () => {
                     }
                 </div>
                 <hr className="border-hr-color mb-5" />
-                <div className="grid grid-cols-2 w-2/3 gap-4 text-base mb-8">
+                <div className="grid grid-cols-2 w-full lg:w-2/3 gap-4 text-base mb-8">
                     <div>
                         <p className="text-custom-black">Number of Pages:</p>
                     </div>

@@ -44,7 +44,7 @@ const Header = () => {
                         }
                     </ul>
                 </div>
-                <Link to={'/'} className="text-3xl font-bold text-black">Book Voyage</Link>
+                <Link to={'/'} className="text-xl md:text-3xl font-bold text-black ">Book Voyage</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-[#131313] text-lg">

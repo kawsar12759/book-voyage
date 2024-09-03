@@ -1,4 +1,4 @@
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getReadBookId } from "../../Utility/localstorage";
@@ -36,27 +36,28 @@ const PagesToRead = () => {
 
     return (
         <div className='bg-custom-gray rounded-lg px-12 py-24 w-full'>
-            <BarChart className='w-full'
-                width={1200}
-                height={450}
-                data={readBooks}
-                margin={{
-                    top: 20,
-                    right: 30,
-                    left: 20,
-                    bottom: 5,
-                }}
-            >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="bookName" />
-                <YAxis />
-                <Tooltip></Tooltip>
-                <Bar dataKey="totalPages" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
-                    {readBooks.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-                    ))}
-                </Bar>
-            </BarChart>
+            <ResponsiveContainer width="100%" height={400}>
+                <BarChart
+                    data={readBooks}
+                    margin={{
+                        top: 20,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="bookName" />
+                    <YAxis />
+                    <Tooltip></Tooltip>
+                    <Bar dataKey="totalPages" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
+                        {readBooks.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={colors[index % 20]} />
+                        ))}
+                    </Bar>
+                </BarChart>
+            </ResponsiveContainer>
+
         </div>
     );
 };

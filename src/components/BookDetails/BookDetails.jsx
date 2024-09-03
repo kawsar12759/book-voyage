@@ -85,8 +85,8 @@ const BookDetails = () => {
                 </div>
 
                 <div className=" text-lg font-semibold">
-                    <button onClick={() => handleReadBtn(idInt)} className="bg-white border border-hr-color px-6 py-3 rounded-lg mr-5 text-black">Read</button>
-                    <button onClick={() => handleWishlistBtn(idInt)} className="bg-[#50B1C9] px-6 py-3 rounded-lg text-white">Wishlist</button>
+                    <button onClick={() => handleReadBtn(idInt)} className="bg-white border border-hr-color px-6 py-3 rounded-lg mr-5 text-black active:text-white active:bg-black">Read</button>
+                    <button onClick={() => handleWishlistBtn(idInt)} className="bg-[#50B1C9] border border-[#50B1C9] px-6 py-3 rounded-lg text-white active:text-[#50B1C9] active:bg-white">Wishlist</button>
                 </div>
             </div>
             <ToastContainer />

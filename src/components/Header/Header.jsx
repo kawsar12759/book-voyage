@@ -5,15 +5,15 @@ const Header = () => {
     const links = <>
         <li>
             <NavLink to="/" className={({ isActive }) =>
-                isActive ? "bg-white border border-[#23BE0A] text-[#23BE0A] hover:bg-[#23BE0A] hover:text-white visited:text-[#23BE0A] visited:bg-white" : "text-[#131313]"} >
+                isActive ? "bg-white border border-[#23BE0A] text-[#23BE0A] hover:bg-[#23BE0A] hover:text-white visited:text-[#23BE0A] visited:bg-white active:!bg-[#23BE0A] active:!text-white" : "text-[#131313] active:!bg-[#23BE0A] active:!text-white"} >
                 Home
             </NavLink>
         </li>
         <li><NavLink to='/listedbooks' className={({ isActive }) =>
-            isActive ? "bg-white border border-[#23BE0A] text-[#23BE0A] hover:bg-[#23BE0A] hover:text-white visited:text-[#23BE0A] visited:bg-white" : "text-[#131313]"
+            isActive ? "bg-white border border-[#23BE0A] text-[#23BE0A] hover:bg-[#23BE0A] hover:text-white visited:text-[#23BE0A] visited:bg-white active:!bg-[#23BE0A] active:!text-white" : "text-[#131313] active:!bg-[#23BE0A] active:!text-white"
         }>Listed Books</NavLink></li>
         <li><NavLink to='/pagestoread' className={({ isActive }) =>
-            isActive ? "bg-white border border-[#23BE0A] text-[#23BE0A] hover:bg-[#23BE0A] hover:text-white visited:text-[#23BE0A] visited:bg-white" : "text-[#131313]"
+            isActive ? "bg-white border border-[#23BE0A] text-[#23BE0A] hover:bg-[#23BE0A] hover:text-white visited:text-[#23BE0A] visited:bg-white active:!bg-[#23BE0A] active:!text-white" : "text-[#131313] active:!bg-[#23BE0A] active:!text-white"
         }>Pages to Read</NavLink></li>
     </>
 
@@ -54,8 +54,8 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end text-white text-lg font-semibold">
-                <button className="bg-[#23BE0A] px-5 py-3 rounded-lg mr-5">Sign In</button>
-                <button className="bg-[#59C6D2] px-5 py-3 rounded-lg ">Sign Up</button>
+                <button className="bg-[#23BE0A] border border-[#23BE0A] px-5 py-3 rounded-lg mr-5 active:text-[#23BE0A] active:bg-white">Sign In</button>
+                <button className="bg-[#59C6D2] border border-[#59C6D2]  px-5 py-3 rounded-lg active:bg-white active:text-[#59C6D2]">Sign Up</button>
             </div>
         </div>
     );

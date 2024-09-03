@@ -4,10 +4,13 @@ import { useLoaderData } from "react-router-dom";
 import { getReadBookId } from "../../Utility/localstorage";
 
 
+
 const PagesToRead = () => {
 
     const allBooks = useLoaderData();
     const [readBooks, setReadBooks] = useState([]);
+
+
     useEffect(() => {
 
         if (allBooks.length > 0) {
@@ -32,8 +35,8 @@ const PagesToRead = () => {
 
 
     return (
-        <div className='bg-custom-gray rounded-lg px-12 py-24'>
-            <BarChart
+        <div className='bg-custom-gray rounded-lg px-12 py-24 w-full'>
+            <BarChart className='w-full'
                 width={1200}
                 height={450}
                 data={readBooks}

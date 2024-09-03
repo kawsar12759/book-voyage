@@ -7,7 +7,7 @@ const Banner = () => {
             <div className="w-3/5 flex items-center">
                 <div>
                     <h2 className="text-6xl font-bold text-black leading-normal mb-5">Books to freshen up your bookshelf</h2>
-                    <Link to={`/listedbooks`}><button className="bg-[#23BE0A] px-5 py-3 text-white text-xl font-bold rounded-md">View the List</button></Link>
+                    <Link to={`/listedbooks`}><button className="bg-[#23BE0A] border border-[#23BE0A]  px-5 py-3 text-white text-xl font-bold rounded-md active:text-[#23BE0A] active:bg-white active:border-[#23BE0A] hover:bg-[#1D9B08]">View the List</button></Link>
                 </div>
             </div>
             <div className="w-1/3">

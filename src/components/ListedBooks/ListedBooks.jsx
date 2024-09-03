@@ -1,7 +1,10 @@
 import ReadBooks from "../ReadBooks/ReadBooks";
+import WishlistBooks from "../WishlistBooks/WishlistBooks";
 
 
 const ListedBooks = () => {
+
+
     return (
         <div className="pb-24">
             <div className="h-28 bg-custom-gray rounded-xl flex items-center justify-center mb-5">
@@ -31,10 +34,8 @@ const ListedBooks = () => {
                     aria-label="Wishlist Book"
                 />
                 <div role="tabpanel" className="tab-content bg-white border-hr-color rounded-box p-6">
-                    Tab content 2
+                    <WishlistBooks></WishlistBooks>
                 </div>
-
-
             </div>
         </div>
     );

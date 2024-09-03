@@ -33,19 +33,16 @@
     },
     {
         "bookId": 3,
-        "bookName": "Where the Crawdads Sing",
-        "author": "Delia Owens",
-        "image": "https://i.ibb.co/NSQx5Fv/6513037-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
-        "review": "Where the Crawdads Sing is a mesmerizing blend of mystery, romance, and nature writing. Set in the marshlands of North Carolina, the novel tells the story of Kya Clark, the 'Marsh Girl,' who grows up isolated from society. Delia Owens paints a vivid picture of the natural world, making the marshland almost a character in itself. The narrative alternates between Kya's lonely childhood and the investigation of a murder in the nearby town. As the two timelines converge, the reader is drawn into a tale of survival, loneliness, and the search for belonging. The book is beautifully written, with poetic descriptions and a strong emotional core. The mystery element is compelling, but it is the exploration of Kya's inner world that truly captivates. This is a book that lingers in the mind long after the last page is turned.",
-        "totalPages": 370,
-        "rating": 4.7,
-        "category": "Fiction",
-        "tags": [
-            "Mystery",
-            "Romance"
-        ],
-        "publisher": "G.P. Putnam's Sons",
-        "yearOfPublishing": 2018
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/9pgYZTb/5545118-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
+        "review": "The Hobbit is a beloved fantasy novel that serves as a prelude to J.R.R. Tolkien’s epic Lord of the Rings trilogy. The story follows the adventures of Bilbo Baggins, a reluctant hobbit who is swept into an epic quest to help a group of dwarves reclaim their homeland from the fearsome dragon Smaug. Tolkien's rich world-building, memorable characters, and enchanting narrative have made The Hobbit a timeless classic. The novel is filled with moments of humor, danger, and wonder, and it explores themes of courage, friendship, and the journey of self-discovery. The Hobbit is not only a delightful adventure story but also a tale that resonates with readers of all ages, inviting them into a world of magic and myth.",
+        "totalPages": 310,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": ["Adventure", "Fantasy"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
     },
     {
         "bookId": 4,
@@ -97,19 +94,35 @@
     },
     {
         "bookId": 7,
-        "bookName": "Sapiens: A Brief History of Humankind",
-        "author": "Yuval Noah Harari",
-        "image": "https://i.ibb.co/J77RGgf/6019391-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
-        "review": "Sapiens: A Brief History of Humankind is a fascinating exploration of the history of our species, Homo sapiens. Yuval Noah Harari takes readers on an epic journey, starting from the emergence of our species in Africa to the present day, and even speculates about the future of humanity. Harari's writing is engaging and thought-provoking, making complex ideas accessible to a wide audience. The book delves into the cognitive revolution, the agricultural revolution, and the unification of humankind, among other significant events in our history. What sets Sapiens apart is its ability to connect historical developments with contemporary issues, providing readers with a deeper understanding of how the past has shaped the present. This is a must-read for anyone interested in history, anthropology, or the human condition.",
-        "totalPages": 498,
-        "rating": 4.7,
-        "category": "Non-fiction",
+        "bookName": "The Book Thief",
+        "author": "Markus Zusak",
+        "image": "https://i.ibb.co/TLqmh3B/6440681-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
+        "review": "The Book Thief is a poignant and haunting novel set in Nazi Germany, narrated by Death itself. The story follows Liesel Meminger, a young girl who finds solace in stealing books and sharing them with others, even as the horrors of war surround her. Markus Zusak's writing is lyrical and evocative, painting a vivid picture of life under the Nazi regime while also exploring themes of friendship, loss, and the power of words. The characters are richly developed, and the narrative is both heart-wrenching and uplifting. This is a powerful novel that resonates with readers long after they turn the last page, offering a unique perspective on a dark chapter in history.",
+        "totalPages": 552,
+        "rating": 4.8,
+        "category": "Historical Fiction",
         "tags": [
-            "History",
-            "Science"
+            "War",
+            "Humanity"
         ],
-        "publisher": "Harper",
-        "yearOfPublishing": 2014
+        "publisher": "Knopf Books for Young Readers",
+        "yearOfPublishing": 2005
+    },
+    {
+        "bookId": 9,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://i.ibb.co/R7TkZ9W/5554366-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
+        "review": "1984 is a dystopian novel by George Orwell that presents a chilling portrayal of a totalitarian regime where the government exercises total control over every aspect of life. The story follows Winston Smith, a low-ranking member of the ruling Party, who secretly despises the Party and dreams of rebellion. Orwell's vision of a society under constant surveillance, where independent thought is suppressed, is both terrifying and thought-provoking. The novel is a powerful commentary on the dangers of totalitarianism, propaganda, and the erosion of individual freedoms. 1984 remains a classic, serving as a stark warning about the potential for abuse of power and the loss of personal autonomy.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Dystopian",
+        "tags": [
+            "Surveillance",
+            "Freedom"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
     },
     {
         "bookId": 8,
@@ -126,21 +139,5 @@
         ],
         "publisher": "Doubleday",
         "yearOfPublishing": 2011
-    },
-    {
-        "bookId": 9,
-        "bookName": "The Subtle Art of Not Giving a F*ck",
-        "author": "Mark Manson",
-        "image": "https://i.ibb.co/d4wMCYN/6172965-MAIN-ezgif-com-webp-to-jpg-converter.jpg",
-        "review": "The Subtle Art of Not Giving a F*ck by Mark Manson is a refreshing take on the self-help genre. Instead of focusing on positivity and relentless optimism, Manson argues that life’s struggles and challenges are inevitable, and the key to a good life is not in avoiding these struggles but in carefully choosing which ones are worth our time and energy. His blunt and irreverent style, combined with humor and honesty, makes this book a compelling read. Manson encourages readers to embrace their limitations, accept the reality of their circumstances, and focus on what truly matters. The book is filled with practical advice and philosophical insights, making it both thought-provoking and actionable. It's a no-nonsense guide to living a more meaningful life by learning to care less about the things that don't really matter.",
-        "totalPages": 224,
-        "rating": 4.4,
-        "category": "Self-help",
-        "tags": [
-            "Philosophy",
-            "Psychology"
-        ],
-        "publisher": "HarperOne",
-        "yearOfPublishing": 2016
     }
 ]

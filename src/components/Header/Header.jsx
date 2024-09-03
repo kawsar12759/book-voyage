@@ -13,7 +13,7 @@ const Header = () => {
             isActive ? "bg-white border border-[#23BE0A] text-[#23BE0A] hover:bg-[#23BE0A] hover:text-white visited:text-[#23BE0A] visited:bg-white" : "text-[#131313]"
         }>Listed Books</NavLink></li>
         <li><NavLink to='/pagestoread' className={({ isActive }) =>
-            isActive ? "bg-green-500 text-white" : "text-[#131313]"
+            isActive ? "bg-white border border-[#23BE0A] text-[#23BE0A] hover:bg-[#23BE0A] hover:text-white visited:text-[#23BE0A] visited:bg-white" : "text-[#131313]"
         }>Pages to Read</NavLink></li>
     </>
 

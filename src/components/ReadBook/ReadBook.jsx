@@ -10,7 +10,7 @@ const ReadBook = ({ book }) => {
                 <img style={{ height: '230px' }} className="w-full h-full rounded-lg" src={image} alt="" />
             </div>
             <div className="w-3/4 flex items-center">
-                <div>
+                <div className="w-full">
                     <h3 className="text-2xl font-bold text-[#131313] mb-3">{bookName}</h3>
                     <p className="text-base font-medium text-custom-black mb-3">By : {author}</p>
 

@@ -23,23 +23,22 @@ const BookDetails = () => {
         }
     }
 
-    const handleWishlistBtn = id =>{
+    const handleWishlistBtn = id => {
         const wishFlag = saveWishBookId(id);
-        if(wishFlag===0)
-        {
+        if (wishFlag === 0) {
             toast.success(`"${bookName}" added to your wish list`);
         }
-        else if(wishFlag===1){
+        else if (wishFlag === 1) {
             toast.warning(`${bookName} is already in your read list.`)
         }
-        else if(wishFlag===2){
+        else if (wishFlag === 2) {
             toast.error(`You've already finished reading "${bookName}"`);
         }
     }
 
     return (
-        <div className="grid grid-cols-2 gap-10 pb-24">
-            <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 pb-24">
+            <div className="flex justify-center md:justify-start">
                 <img className="rounded-xl h-full" src={image} alt="" />
             </div>
             <div>
@@ -57,32 +56,30 @@ const BookDetails = () => {
                     }
                 </div>
                 <hr className="border-hr-color mb-5" />
-                <div className="grid grid-cols-2 w-full lg:w-2/3 gap-4 text-base mb-8">
-                    <div>
-                        <p className="text-custom-black">Number of Pages:</p>
-                    </div>
-                    <div>
-                        <p className="font-semibold text-[#131313]">{totalPages}</p>
-                    </div>
-                    <div>
-                        <p className="text-custom-black">Publisher:</p>
-                    </div>
-                    <div>
-                        <p className="font-semibold text-[#131313]">{publisher}</p>
-                    </div>
-                    <div>
-                        <p className="text-custom-black">Year of Publishing:</p>
-                    </div>
-                    <div>
-                        <p className="font-semibold text-[#131313]">{yearOfPublishing}</p>
-                    </div>
-                    <div>
-                        <p className="text-custom-black">Rating</p>
-                    </div>
-                    <div>
-                        <p className="font-semibold text-[#131313]">{rating}</p>
-                    </div>
-                </div>
+                <table className="w-fit h-48 mb-8 border-collapse ">
+                    <tbody>
+                        <tr>
+                            <td className=" text-custom-black">Number of Pages:</td>
+                            <td className="pl-8 font-semibold text-[#131313]">{totalPages}</td>
+                            
+                        </tr>
+                        <tr>
+                            <td className="text-custom-black">Publisher:</td>
+                            <td className="pl-8 font-semibold text-[#131313]">{publisher}</td>
+                           
+                        </tr>
+                        <tr>
+                            <td className="text-custom-black">Year of Publishing:</td>
+                            <td className="pl-8 font-semibold text-[#131313]">{yearOfPublishing}</td>
+                           
+                        </tr>
+                        <tr>
+                            <td className=" text-custom-black">Rating</td>
+                            <td className= "pl-8 font-semibold text-[#131313]">{rating}</td>
+                           
+                        </tr>
+                    </tbody>
+                </table>
 
                 <div className=" text-lg font-semibold">
                     <button onClick={() => handleReadBtn(idInt)} className="bg-white border border-hr-color px-6 py-3 rounded-lg mr-5 text-black active:text-white active:bg-black">Read</button>

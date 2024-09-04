@@ -3,7 +3,7 @@ import bannarImg from '../../assets/kindpng_789406.png'
 
 const Banner = () => {
     return (
-        <div className='flex flex-col-reverse lg:flex lg:flex-row  bg-custom-gray px-32 py-16 rounded justify-between mb-24'>
+        <div className='flex flex-col-reverse lg:flex lg:flex-row  bg-custom-gray px-10 md:px-32 py-16 rounded justify-between mb-24'>
             <div className="mt-4 lg:mt-0 lg:w-3/5 flex items-center">
                 <div>
                     <h2 className="text-center lg:text-left text-4xl md:text-5xl lg:text-6xl font-bold text-black leading-normal mb-5">Books to freshen up your bookshelf</h2>

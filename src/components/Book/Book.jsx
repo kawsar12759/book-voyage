@@ -10,7 +10,7 @@ const Book = ({ bookData }) => {
 
                 <div className="text-base font-medium text-[#23BE0A] flex mb-3">
                     {tags.map((tag, idx) => (
-                        <p className="bg-custom-green mr-3 px-4 py-1 rounded-full" key={idx}>
+                        <p className="bg-custom-green w-fit  mr-3 px-4 py-1 rounded-full" key={idx}>
                             {tag}
                         </p>
                     ))}

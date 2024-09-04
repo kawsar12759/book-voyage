@@ -35,7 +35,7 @@ const PagesToRead = () => {
 
 
     return (
-        <div className='bg-custom-gray rounded-lg px-12 py-24 w-full'>
+        <div className='bg-custom-gray rounded-lg lg:px-12 py-24 w-full'>
             <ResponsiveContainer width="100%" height={400}>
                 <BarChart
                     data={readBooks}

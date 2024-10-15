@@ -20,7 +20,7 @@ const Header = () => {
     return (
 
         <div className="navbar py-10">
-            <div className="navbar-start">
+            <div className="navbar-start w-full lg:w-1/2">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
@@ -44,22 +44,22 @@ const Header = () => {
                         }
                     </ul>
                 </div>
-                <Link to={'/'} className="text-xl md:text-3xl font-bold text-black min-w-fit">Book Voyage</Link>
+                <Link to={'/'} className="text-2xl md:text-3xl font-bold text-black min-w-fit">Book Voyage</Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-[#131313] text-lg">
                     {
                         links
                     }
                 </ul>
             </div>
-            <div className="navbar-end flex justify-end text-white text-base sm:text-lg font-semibold">
+            {/* <div className="navbar-end flex justify-end text-white text-base sm:text-lg font-semibold">
 
                 <div>               
                     <button className="bg-[#23BE0A] border border-[#23BE0A] px-3 py-2 sm:px-5 sm:py-3 rounded-lg mr-5 active:text-[#23BE0A] active:bg-white">Sign In</button>
                     <button className="bg-[#59C6D2] border border-[#59C6D2] px-3 py-2 sm:px-5 sm:py-3 rounded-lg active:bg-white active:text-[#59C6D2]">Sign Up</button>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

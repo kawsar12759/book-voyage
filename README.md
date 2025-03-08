@@ -28,10 +28,6 @@ To run this project locally, follow these steps:
    ```bash
    npm run dev
    ```
-4. **Access the application:**
-   ```bash
-   npm install
-   ```
 5. **Access the application:**
 
    Open your browser and navigate mentioned localhost server.
